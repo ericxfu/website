@@ -1,0 +1,95 @@
+html.scroll{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+header {
+	font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.bgOpacity{
+	overflow:hidden;
+	margin-top: 25px;
+    font-size: 21px;
+}
+
+.animation{
+    -webkit-animation: fadein 5s;
+	-ms-transform: translateY(25%);
+	transform: translateY(25%);
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.bgImage{
+	background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1400x900-1024x658.png");
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+main{
+	padding: 250px 150px 125px 150px;
+}
+
+h1.title{
+	text-align: center;
+	font-size: 100px;
+}
+
+.aboutme{
+	font-family: Arial;
+	font-size: 35px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 30px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	font-size: 30px;
+	width: 200px;
+	padding: 25px 10px;
+	letter-spacing: 3px;
+	border: solid white 3px;
+}
+
+nav {
+	margin: right;
+}
+
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	background-color: white;
+	transition: 0.4s;
+}
+
+.footer{
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+}
+
